@@ -1,9 +1,5 @@
 return {
   {
-    "fladson/vim-kitty",
-    ft = "kitty",
-  },
-  {
     "stevearc/conform.nvim",
     event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
